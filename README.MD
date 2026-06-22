@@ -1,4 +1,4 @@
-# 🎓 Student Management System API (Question1)
+# Student Management System API (Question1)
 screenshots for testing in postman
 ![alt text](image-5.png)
 ![alt text](image.png)

@@ -13,8 +13,8 @@ This is Student Management System API, developed for the Semester Two Python Exa
 #Question 1 attempted
 
 Contributions
-only one person worked on it
-BRIGHT JEMIMMAH,i Defined `Program` & `Course` models. Implemented `POST /programs` & `POST /courses`. | Google Drive Video Link (i will put my link  here after recording) 
+only one person has worked on it
+BRIGHT JEMIMMAH,i Defined `Program` & `Course` models. Implemented `POST /programs` & `POST /courses`.  Google Drive Video Link ((https://drive.google.com/drive/folders/1PYVe4UGVBhBlU2mzILfVBH2PF_9HcZqE?usp=sharing)) 
 
  Features & Technical Implementation
 
@@ -54,7 +54,7 @@ program_id(Integer, Foreign Key referencing `programs.id`, nullable=False)
 created_at or updated_at(DateTime)
 Relationships are Many-to-many  with `Course` via `student_courses` association table.
 
-# API Endpoints & Usage(screen shots are provided at the start of the .MD)
+# API Endpoints and Usage(screen shots are provided at the start of the .MD)
  1. Program Endpoints
 `POST /programs`
 Create a new program.
@@ -90,24 +90,4 @@ Success Response (200 OK)
     }
   }
 NOTE: i have provided screenshots of some of the tests made using postman
-
-Setup & Installation Instructions
-Step 1: Clone the Repository with git clone https://github.com/gorretgolden/Python-Cohort-4-Exam-Y1S2-Startup-Files
-cd Python-Cohort-4-Exam-Y1S2-Startup-Files
-
-Step 2: Set Up a Virtual Environment & Install Dependencies
-python -m venv venv,  Activated on Windows:venv\Scripts\activate, run pip install -r requirements.txt to get the requiremnts.txt file
-
- Step 3: Configure Environment Variables
-I Created a `.env` file in the root directory 
-
-Step 4: Run Database Migrations
-I ensured that MySQL server is running, and that the target database exists.
-flask db init
-flask db migrate -m "initial migration"
-flask db upgrade
-
-Step 5: Start the Development Server
-python run.py
-The server started on `http://127.0.0.1:5000/`.
 
